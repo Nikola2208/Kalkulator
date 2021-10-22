@@ -14,6 +14,10 @@ public class Main {
 			if (string.equals("")){
 				continue;
 			}
+			String[] parts = string.split(" ");
+			if(parts.length!=3) {
+				continue;
+			}
 		}while(!string.equals("kraj"));
 	}
 
