@@ -16,6 +16,9 @@ public class Main {
 			}
 			String[] parts = string.split(" ");
 			if(parts.length!=3) {
+				if(string.equals("kraj"))
+					continue;
+				System.out.println("Pogresan format naredbe");
 				continue;
 			}
 		}while(!string.equals("kraj"));
