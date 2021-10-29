@@ -23,10 +23,15 @@ public class Main {
 			}
 			int x = Integer.parseInt(parts[0]);
 			int y = Integer.parseInt(parts[2]);
-			if (parts[1].equals("+")) {
-				System.out.println(x+y);
+			if (parts[1].equals("-")) {
+				substraction(x,y);
 			}
 		}while(!string.equals("kraj"));
 	}
 
+	public static void substraction(int x, int y) {
+		System.out.println(x-y);
+	}
+	
 }
+
